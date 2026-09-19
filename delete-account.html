@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delete Account & Data — Sugar Log</title>
+<style>
+  :root {
+    --lav: #6B4EC7;
+    --lav-dark: #4A3487;
+    --coral: #FF8C7A;
+    --coral-dark: #E8543F;
+    --bg: #FAF9F6;
+    --card: #FFFFFF;
+    --text: #2A2A2A;
+    --text-soft: #5B5B5B;
+    --border: #ECE8F5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  header {
+    background: linear-gradient(135deg, var(--lav) 0%, var(--lav-dark) 100%);
+    color: #fff;
+    padding: 48px 20px 56px;
+    text-align: center;
+  }
+  header .logo-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 64px; height: 64px; border-radius: 18px;
+    background: rgba(255,255,255,0.15); margin-bottom: 18px; font-size: 30px;
+  }
+  header h1 { margin: 0 0 8px; font-size: 28px; font-weight: 700; letter-spacing: -0.5px; }
+  header p { margin: 4px 0; color: #fff; opacity: 0.98; font-size: 16px; font-weight: 500; }
+  .wrap { max-width: 780px; margin: -30px auto 60px; padding: 0 20px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 28px 30px; margin-bottom: 22px; box-shadow: 0 2px 10px rgba(107,78,199,0.07);
+  }
+  h2 {
+    color: var(--lav-dark); font-size: 20px; border-bottom: 2px solid var(--coral);
+    display: inline-block; padding-bottom: 4px; margin-top: 0;
+  }
+  h3 { color: var(--lav-dark); font-size: 16px; margin-bottom: 10px; }
+  p { color: var(--text-soft); }
+  ol, ul { color: var(--text-soft); padding-left: 22px; }
+  li { margin-bottom: 10px; }
+  a.link { color: var(--coral-dark); text-decoration: none; font-weight: 600; }
+  a.link:hover { text-decoration: underline; }
+  .step-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 26px; height: 26px; border-radius: 50%; background: var(--lav);
+    color: #fff; font-weight: 700; font-size: 13px; margin-right: 10px; flex-shrink: 0;
+  }
+  .step-row { display: flex; align-items: flex-start; margin-bottom: 14px; }
+  .step-row p { margin: 0; color: var(--text); }
+  .info-box {
+    background: #F3EFFB; border: 1px solid #DED4F5; border-radius: 12px;
+    padding: 16px 20px; margin-top: 14px; font-size: 14px;
+  }
+  .info-box strong { color: var(--lav-dark); }
+  .retain-box {
+    background: #FFF4F1; border: 1px solid #FFD9D1; border-radius: 12px;
+    padding: 16px 20px; margin-top: 14px; font-size: 14px;
+  }
+  .retain-box strong { color: var(--coral-dark); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { background: #F3EFFB; color: var(--lav-dark); font-weight: 700; }
+  .contact-box {
+    background: linear-gradient(135deg, #FFF4F1 0%, #F3EFFB 100%);
+    border: 1px solid var(--border); border-radius: 14px; padding: 20px 24px;
+  }
+  .contact-box p { margin: 6px 0; color: var(--text); }
+  .contact-box strong { color: var(--lav-dark); }
+  footer { text-align: center; padding: 30px 20px 50px; color: #9A9A9A; font-size: 13px; }
+  @media (max-width: 600px) {
+    .card { padding: 22px 18px; }
+    header h1 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-badge">💧</div>
+  <h1>Delete Account & Data</h1>
+  <p>Sugar Log — by ArticOde Innovations</p>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>Overview</h2>
+    <p>You are always in control of your Sugar Log data. You can delete individual readings, delete your entire account and all cloud-synced records, or request deletion by email — whichever you prefer. This page explains all three options.</p>
+  </div>
+
+  <div class="card">
+    <h2>Option 1 — Delete individual readings (in-app)</h2>
+    <p>You don't need to delete your whole account just to remove a few readings.</p>
+    <div class="step-row"><span class="step-num">1</span><p>Open <strong>Sugar Log</strong> and go to the <strong>History</strong> screen.</p></div>
+    <div class="step-row"><span class="step-num">2</span><p>Find the reading you want to remove and tap it to open its detail view.</p></div>
+    <div class="step-row"><span class="step-num">3</span><p>Tap <strong>Delete</strong> and confirm. The reading is removed immediately — from your device, and from the cloud if you are logged in.</p></div>
+  </div>
+
+  <div class="card">
+    <h2>Option 2 — Delete your account and all data (in-app)</h2>
+    <div class="step-row"><span class="step-num">1</span><p>Open <strong>Sugar Log</strong> and go to <strong>Settings → Account → Profile</strong>.</p></div>
+    <div class="step-row"><span class="step-num">2</span><p>Tap <strong>Delete Account</strong>.</p></div>
+    <div class="step-row"><span class="step-num">3</span><p>Confirm when prompted. This permanently deletes your Firebase account, all patient profiles, and every sugar reading stored in the cloud for that account.</p></div>
+    <div class="info-box">
+      <strong>Note:</strong> If you are using Sugar Log without an account (offline mode), simply uninstalling the app or clearing its storage from your phone's App Settings removes all local data immediately — there is nothing stored in the cloud to delete.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Option 3 — Request deletion by email or WhatsApp</h2>
+    <p>If you'd rather not do it yourself in the app, just send us a request and we'll delete it for you.</p>
+    <div class="contact-box">
+      <p><strong>Email:</strong> <a class="link" href="mailto:articodeinnovations@gmail.com?subject=Delete%20My%20Sugar%20Log%20Account">articodeinnovations@gmail.com</a></p>
+      <p><strong>WhatsApp:</strong> <a class="link" href="https://wa.me/923009673468" target="_blank">+92 300 9673468</a></p>
+      <p style="margin-top:10px;">Please include the email address or name associated with your Sugar Log account so we can locate and remove your records.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>What gets deleted, and when</h2>
+    <table>
+      <tr><th>Data type</th><th>Deleted</th><th>Timeline</th></tr>
+      <tr><td>Sugar readings & patient profiles</td><td>Permanently</td><td>Immediately (in-app) or within 30 days (email/WhatsApp request)</td></tr>
+      <tr><td>Account email, name & login credentials</td><td>Permanently</td><td>Immediately (in-app) or within 30 days (email/WhatsApp request)</td></tr>
+      <tr><td>Locally stored data (offline mode)</td><td>Permanently</td><td>Immediately on uninstall or clearing app storage</td></tr>
+    </table>
+    <div class="retain-box">
+      <strong>What we don't retain:</strong>
+      We do not keep backups of your health data after deletion. Anonymous, aggregated crash/diagnostic logs (if any) that cannot be tied back to you may be retained for standard troubleshooting purposes, consistent with our <a class="link" href="index.html">Privacy Policy</a>.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Questions?</h2>
+    <p>See our full <a class="link" href="index.html">Privacy Policy</a> for details on how your data is collected, used, and protected, or contact us directly:</p>
+    <div class="contact-box">
+      <p><strong>Organization:</strong> ArticOde Innovations</p>
+      <p><strong>Email:</strong> <a class="link" href="mailto:articodeinnovations@gmail.com">articodeinnovations@gmail.com</a></p>
+      <p><strong>Phone / WhatsApp:</strong> +92 300 9673468</p>
+      <p><strong>Location:</strong> Punjab, Pakistan</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2026 ArticOde Innovations — Sugar Log Account & Data Deletion
+</footer>
+
+</body>
+</html>
